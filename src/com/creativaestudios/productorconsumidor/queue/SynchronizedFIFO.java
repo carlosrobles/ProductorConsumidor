@@ -4,7 +4,7 @@ package com.creativaestudios.productorconsumidor.queue;
 public class SynchronizedFIFO<T> extends SynchronizedQueue<T> {
 
 	@Override
-	public synchronized T doDequeue() {
+	public   T doDequeue() {
  
 		return buffer.remove(0);
 

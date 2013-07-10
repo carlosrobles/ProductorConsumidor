@@ -5,7 +5,7 @@ package com.creativaestudios.productorconsumidor.queue;
 public class SynchronizedLIFO<T> extends SynchronizedQueue<T> {
 
 	@Override
-	public synchronized T doDequeue() {
+	public   T doDequeue() {
 
 		return buffer.remove(buffer.size() - 1);
 
