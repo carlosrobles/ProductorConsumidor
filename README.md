@@ -1,4 +1,3 @@
 ProductorConsumidor
 ===================
-
-Ejemplo en Java de un sistema en el que distintos hilos luchan por acceder a los mismos recursos
+Java example of a system in which different threads fight for access the same resources (one produciding, two or more consuming)
